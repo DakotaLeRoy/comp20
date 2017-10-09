@@ -1,0 +1,53 @@
+body {
+	background: white;
+    background: -webkit-linear-gradient(red, powderblue);
+    background: -o-linear-gradient(white, powderblue);
+    background: -moz-linear-gradient(white, powderblue);
+    background: linear-gradient(white, powderblue);
+  	color: #6d6d6d;
+    font-family: "Avenir";
+	text-align: center;
+}
+
+h4 {
+	font-size: 55px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: large;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-weight: normal;
+	position: center;
+}
+
+img {
+	position: center;
+	width:575px;
+	height:500;
+}
+
+a {
+	text-decoration: none;
+}
