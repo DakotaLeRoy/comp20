@@ -54,15 +54,7 @@ function getData(myLat, myLng) {
 	var request = new XMLHttpRequest();
 	// Step 1: set up HTTP request. Three required arguments...:
 	// ...HTTP method (string), URL (string), asynch (boolean)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	request.open("POST", "https://warm-shelf-33452.herokuapp.com/submit", true);
-=======
-	request.open("POST", "https://dwarm-shelf-33452.herokuapp.com/submit", true);
->>>>>>> 3e0c99e04f90e883af8dec625130a82db336f27b
-=======
-	request.open("POST", "https://warm-shelf-33452.herokuapp.com/submit", true);
->>>>>>> 2bb0ed46112d3ada0c90f2875d176576adc2dc91
 
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
 	// Step 2: Set up callback function to deal with HTTP response data
